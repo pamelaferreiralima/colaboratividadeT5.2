@@ -1,31 +1,87 @@
+/* config-font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
     list-style: none;
+    font-family: 'Montserrat', sans-serif;
 }
+/* config-body */
 body{
-    background-color: aqua ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: white;
+    background-color: #1C1C1C;
 }
-.img-porquinho{
-    width: 15vw;
-    border-radius: 50%;
-}
+
+/* config-header */
 header{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.box-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-title {
+    text-align: center;
+}
+.second-title {
+    text-align: center;
+}
+
+.img-porquinho{
+    width: 10vw;
+    margin-top: 20px;
+
+    border: #2F4F4F solid 4px;
+    border-radius: 20px;
+}
+
+/* config-main */
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .box-list{
-    background-color: purple;
-    width: 30vw;
-    margin-top: 5%;
+    background-color: #2F4F4F;
+    
+    width: 15vw;
+    height: 40vh;
+    border-radius: 20px;
+
+    margin-top: 20px;
 }
-.box-list li{
-    color: #fff;
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-text {
+    width: 25vw;
+    height: 20vh;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #2F4F4F;
+    border-radius: 20px;
+}
+.text-main {
+    font-size: 10pt;
 }

@@ -1,14 +1,17 @@
+
 /* config-font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+@fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,400&;
 
 *{
-    margin: 0;
+    margin:0;
     padding:0;
     box-sizing: border-box;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
 }
+
 /* config-body */
 body{
     display: flex;
@@ -20,11 +23,42 @@ body{
 }
 
 /* config-header */
+
+:root {
+
+    --gray: rgb(230, 223, 223, 0.5);
+}
+.img-porquinho{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 50%;
+}
+
+/* tags */
+
+body{
+    background-image: url("https://miro.medium.com/max/700/1*-q0EquBzyvfHHkFvsKTV5A.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header */
+
+
 header{
+    width: 70%;    
+    height: 35vh;
+    padding: 1rem;
+    margin: 2rem auto;
+    color: #000;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    text-align: center;
+    background-color: var(--gray);
 }
+
 
 .box-header {
     display: flex;
@@ -49,11 +83,39 @@ header{
 }
 
 /* config-main */
+
+header h1 {
+    text-transform: uppercase;
+}
+header p {
+    font-size: 1rem;
+}
+
+/* main */
+
+
 main{
+    width: 70%;
+    padding: 1rem;
+    margin: 2rem auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--gray);
 }
+
+main h2 {
+    margin-top: 2rem;
+    color: #000;
+}
+
+/* .img-porquinho */
+
+.img-porquinho{
+    width: 15vw;
+    border-radius: 50%;
+}
+
 
 .box-list{
     background-color: #2F4F4F;
@@ -85,3 +147,31 @@ ul {
 .text-main {
     font-size: 10pt;
 }
+
+/* .box-list */
+
+.box-list{
+    width: 30vw;
+    margin-top: 5%;
+}
+.box-list li{
+    width: 100%;
+    height: 1.5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: purple;
+    color: #fff;
+}
+footer{
+display: flex;
+justify-content: flex-end;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.box-list li:hover {
+    background-color: rgb(66, 5, 66);
+    transition: 0.2s;
+}
+

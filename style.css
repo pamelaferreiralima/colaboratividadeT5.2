@@ -22,10 +22,22 @@ main{
     align-items: center;
 }
 .box-list{
-    background-color: purple;
+    background-color: beige;
     width: 30vw;
     margin-top: 5%;
+    display: flex;
+    justify-content: center;
 }
-.box-list li{
-    color: #fff;
+.box-list li {
+    margin-left: 10%;
+    margin-right: 10px;
+}
+.pqueijo{
+    width: 20%;
+    border-radius: 0% 50% 0% 50%;
+}
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

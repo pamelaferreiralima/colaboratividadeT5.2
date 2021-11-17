@@ -1,3 +1,5 @@
+@fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,400&
+
 *{
     margin: 0;
     padding:0;
@@ -8,7 +10,8 @@ body{
     background-color: aqua ;
 }
 .img-porquinho{
-    width: 15vw;
+    width: 30vw;
+    height: 40vh;
     border-radius: 50%;
 }
 header{
@@ -28,4 +31,8 @@ main{
 }
 .box-list li{
     color: #fff;
+}
+footer{
+display: flex;
+justify-content: flex-end;
 }

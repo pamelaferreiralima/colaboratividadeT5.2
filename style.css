@@ -1,3 +1,5 @@
+@fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,400&;
+
 *{
     margin: 0;
     padding:0;
@@ -8,6 +10,11 @@
 :root {
 
     --gray: rgb(230, 223, 223, 0.5);
+}
+.img-porquinho{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 50%;
 }
 
 /* tags */
@@ -78,6 +85,10 @@ main h2 {
     align-items: center;
     background-color: purple;
     color: #fff;
+}
+footer{
+display: flex;
+justify-content: flex-end;
     margin-bottom: 1rem;
     font-weight: bold;
 }

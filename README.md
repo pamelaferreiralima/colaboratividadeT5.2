@@ -4,7 +4,7 @@
 
 # Git e GitHub
 <p>
-    Na aula de hoje treinamos a utilização de comandos e funções dentro do Git e GitHub. Utilizamos da colaboraçãod e todos para que fosse possível uma aula prática e divertida para todos.
+    Na aula de hoje treinamos a utilização de comandos e funções dentro do Git e GitHub. Utilizamos da colaboração de todos para que fosse possível uma aula prática e divertida para todos.
 </p>
 
 ---
